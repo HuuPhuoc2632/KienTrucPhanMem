@@ -4,8 +4,14 @@ public class OffState implements FanState{
     public OffState() {
     }
 
+//    public void switchOn(Fan state) {
+//        System.out.println("Da bat quat.");
+//        state.setState(this);
+//
+//    }
+
+    @Override
     public void switchOn() {
-        System.out.println("Da bat quat.");
 
     }
 
